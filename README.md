@@ -10,7 +10,7 @@ This project explores the **Data Analyst** job market to identify:
 ---
 
 ## Tools
-SQL (PostgreSQL) · Visual Studio Code · Python (pandas, matplotlib)
+SQL (PostgreSQL) · Visual Studio Code
 
 ---
 
@@ -90,9 +90,6 @@ LIMIT 5;
 **Top skills (ordered):**  
 **SQL**, **Excel**, **Python**, **Tableau**, **Power BI**  
 
-**Visualization:**  
-A bar chart was generated to highlight the top 5 skills by demand.
-
 **Takeaway:** The foundational toolkit (SQL/Excel/Python/BI) remains the market baseline.
 
 ---
@@ -116,8 +113,6 @@ LIMIT 25;
 **Highest-paying skills include:**  
 **dplyr**, **solidity**, **couchbase**, **DataRobot**, **GitLab**, **Jira**, **Hadoop**, **Atlassian**, **Golang**, **Airflow**  
 
-**Visualization:**  
-Bar chart of the top 10 skills ranked by salary.
 
 **Takeaway:** Certain engineering-oriented and niche tools bring notable salary premiums.
 
@@ -146,8 +141,6 @@ LIMIT 25;
 **Optimal skills surfaced:**  
 **Go**, **Confluence**, **Hadoop**, **Snowflake**, **Azure**, **BigQuery**, **AWS**, **Java**, **SSIS**, **Jira**, **Oracle**, **Looker**, **NoSQL**, **Python**, **R**  
 
-**Visualization:**  
-Scatter plot showing demand vs. salary, highlighting optimal skills.
 
 **Takeaway:** Pair the core stack with **cloud/big-data platforms** (Snowflake, Azure, AWS, BigQuery, Hadoop) to hit the sweet spot of **relevance + compensation**.
 
