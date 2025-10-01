@@ -33,11 +33,11 @@ LIMIT 10;
 ```
 
 **Examples of top roles:**  
-- Data Analyst — Mantys — **$650,000**  
-- Director of Analytics — Meta — **$336,500**  
-- Associate Director – Data Insights — AT&T — **$255,830**  
-- Data Analyst, Marketing — Pinterest — **$232,423**  
-- Data Analyst (Hybrid/Remote) — UCLA Health — **$217,000**  
+- Data Analyst — **$650,000**  
+- Director of Analytics — **$336,500**  
+- Associate Director – **$255,830**  
+- Data Analyst, Marketing — **$232,423**  
+- Data Analyst (Hybrid/Remote) — **$217,000**  
 
 **Takeaway:** Senior/lead titles and big-brand employers dominate the top salary range.
 
