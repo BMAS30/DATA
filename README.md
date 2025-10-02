@@ -99,11 +99,10 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 WHERE job_title_short = 'Data Analyst' AND salary_year_avg IS NOT NULL
 GROUP BY skills
 ORDER BY avg_salary DESC
-LIMIT 25;
+LIMIT 5;
 ```
 
-**Highest-paying skills include:**  
-**dplyr**, **solidity**, **couchbase**, **DataRobot**, **GitLab**, **Jira**, **Hadoop**, **Atlassian**, **Golang**, **Airflow**  
+ ![Most Frequent Skills](./4_top_paying_skills.png)
 
 
 **Takeaway:** Certain engineering-oriented and niche tools bring notable salary premiums.
@@ -127,11 +126,10 @@ WHERE job_title_short = 'Data Analyst'
 GROUP BY skills_dim.skills
 HAVING COUNT(skills_job_dim.job_id) > 10
 ORDER BY avg_salary DESC, demand_count DESC
-LIMIT 25;
+LIMIT 5;
 ```
 
-**Optimal skills surfaced:**  
-**Go**, **Confluence**, **Hadoop**, **Snowflake**, **Azure**, **BigQuery**, **AWS**, **Java**, **SSIS**, **Jira**, **Oracle**, **Looker**, **NoSQL**, **Python**, **R**  
+![Most Frequent Skills](./5_optimal_skills.png)
 
 
 **Takeaway:** Pair the core stack with **cloud/big-data platforms** (Snowflake, Azure, AWS, BigQuery, Hadoop) to hit the sweet spot of **relevance + compensation**.
