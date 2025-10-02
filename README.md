@@ -32,14 +32,8 @@ ORDER BY salary_year_avg DESC
 LIMIT 10;
 ```
 
-**Examples of top roles:**  
-- Data Analyst — **$650,000**  
-- Director of Analytics — **$336,500**  
-- Associate Director – **$255,830**  
-- Data Analyst, Marketing — **$232,423**  
-- Data Analyst (Hybrid/Remote) — **$217,000**  
+![Most Frequent Skills](./most_frequent_skills.png)
 
-**Takeaway:** Senior/lead titles and big-brand employers dominate the top salary range.
 
 ---
 
