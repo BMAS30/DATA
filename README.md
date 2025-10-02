@@ -14,7 +14,7 @@ SQL (PostgreSQL) · Visual Studio Code
 
 ---
 
-## Q1 — Top-Paying Data Analyst Jobs
+## Query 1 — Top-Paying Data Analyst Jobs
 **Query goal:** Select the highest-paying remote (“Anywhere”) Data Analyst roles.
 
 ```sql
@@ -37,8 +37,8 @@ LIMIT 10;
 
 ---
 
-## Q2 — Skills Required for the Top-Paying Jobs
-**Query goal:** Take the top 10 highest-paying jobs from Q1 and list their required skills.
+## Query 2 — Skills Required for the Top-Paying Jobs
+**Query goal:** Take the top 10 highest-paying jobs from Query 1 and list their required skills.
 
 ```sql
 WITH top_paying_jobs AS (
@@ -49,7 +49,7 @@ WITH top_paying_jobs AS (
       AND job_location = 'Anywhere'
       AND salary_year_avg IS NOT NULL
     ORDER BY salary_year_avg DESC
-    LIMIT 10
+    LIMIT 5
 )
 SELECT top_paying_jobs.*, skills
 FROM top_paying_jobs
@@ -58,14 +58,13 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY salary_year_avg DESC;
 ```
 
-**Most frequent skills among those jobs:**  
-**SQL**, **Python**, **Tableau**, **R**, plus **Snowflake**, **Pandas**, **Excel**, and cloud tools.
+![Most Frequent Skills](./top_5_high_paying_jobs.png)
 
 **Takeaway:** Core analytics stack (SQL + Python + BI) is essential even at the top end.
 
 ---
 
-## Q3 — Most In-Demand Skills
+## Query 3 — Most In-Demand Skills
 **Query goal:** Rank skills by frequency across all Data Analyst postings.
 
 ```sql
@@ -81,14 +80,13 @@ ORDER BY demand_count DESC
 LIMIT 5;
 ```
 
-**Top skills (ordered):**  
-**SQL**, **Excel**, **Python**, **Tableau**, **Power BI**  
+![Most Frequent Skills](./top_demanded_skills.png)
 
 **Takeaway:** The foundational toolkit (SQL/Excel/Python/BI) remains the market baseline.
 
 ---
 
-## Q4 — Skills Associated with Higher Salaries
+## Query 4 — Skills Associated with Higher Salaries
 **Query goal:** Compute the average salary for each skill across roles with salary data.
 
 ```sql
@@ -112,7 +110,7 @@ LIMIT 25;
 
 ---
 
-## Q5 — Optimal Skills (High Demand × High Salary)
+## Query 5 — Optimal Skills (High Demand × High Salary)
 **Query goal:** On remote roles, identify skills that combine both demand and strong salaries.
 
 ```sql
