@@ -105,7 +105,7 @@ LIMIT 5;
  ![Most Frequent Skills](./4_top_paying_skills.png)
 
 
-**Takeaway:** Certain engineering-oriented and niche tools bring notable salary premiums.
+**Takeaway:** Certain engineering-oriented and niche tools bring notable salaries.
 
 ---
 
@@ -132,7 +132,7 @@ LIMIT 5;
 ![Most Frequent Skills](./5_optimal_skills.png)
 
 
-**Takeaway:** Pair the core stack with **cloud/big-data platforms** (Snowflake, Azure, AWS, BigQuery, Hadoop) to hit the sweet spot of **relevance + compensation**.
+**Takeaway:** Pair the core stack with **cloud/big-data platforms** to hit the sweet spot of **relevance + compensation**.
 
 ---
 
