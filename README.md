@@ -139,7 +139,7 @@ LIMIT 5;
 ## Overall Conclusions
 - **SQL is indispensable**: highest demand and present in top-paying roles.  
 - **Python + BI (Tableau/Power BI)** form the must-have analyst toolkit.  
-- **Cloud and Big Data** (Snowflake, Azure, AWS, BigQuery, Hadoop) deliver salary advantages.  
+- **Cloud and Big Data** (Snowflake, Azure, Hadoop) deliver salary advantages.  
 - Career roadmap: **master the core (SQL, Python, BI)** → add **1–2 premium platforms** to access top-tier opportunities.
 
 ---
